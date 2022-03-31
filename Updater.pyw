@@ -197,7 +197,7 @@ def exitpy():
     runcfg.read('Pyconfig.ini')
     exePath = runcfg['DEFAULT']['updateLocation']
     os.chdir(exePath)
-    pathos = exePath +'\Daifuku.exe'
+    pathos = exePath +'\Program.exe'
     print(pathos)
     os.startfile(pathos)
     os._exit(0)
