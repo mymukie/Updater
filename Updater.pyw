@@ -11,7 +11,7 @@ from tkinter import messagebox as msbox
 from tkinter.constants import E
 '''
 SIT Updater Version 1.0005
-Update Link: https://s62m5-my.sharepoint.com/personal/12438_brxyg_top/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F12438%5Fbrxyg%5Ftop%2FDocuments%2FSIT%20Last%20Version&ga=1
+
 without Runscreen when is up to date.
 '''
 #ctypes.windll.user32.ShowWindow( ctypes.windll.kernel32.GetConsoleWindow(), 6 )
