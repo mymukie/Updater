@@ -15,3 +15,18 @@ version = 29032022 = > version will change from this if you have an update by ch
 
 from the program can be config source and destination inside the program.
 
+to change an execute file name look into this line
+
+def exitpy():
+    CheckUpdate_button['state']='normal'
+    runcfg = cf.ConfigParser()
+    runcfg.read('Pyconfig.ini')
+    exePath = runcfg['DEFAULT']['updateLocation']
+    os.chdir(exePath)
+ >>   pathos = exePath +'\program.exe' << change to the exe file to open after update.
+    print(pathos)
+    os.startfile(pathos)
+    os._exit(0)
+    
+    
+# if there is no update from source means Pyconfig.ini ['VERSION'] = no change the program will start automatically.
